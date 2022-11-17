@@ -43,7 +43,7 @@ const OrderDetailProducts = (props) => {
                 <div className="info"> <span>{item.name}</span> <span>{item.size}</span> </div>
               </Link>
             </td>
-            <td>${item.price} </td>
+            <td>R{item.price} </td>
             <td>{item.qty} </td>
             <td className="text-end"> R{item.qty * item.price}</td>
           </tr>
