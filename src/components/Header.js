@@ -33,7 +33,7 @@ const Header = () => {
   return (
     <header className="main-header navbar">
       <div className="col-search">
-        <form className="searchform">
+        {/*<form className="searchform">
           <div className="input-group">
             <input
               list="search_terms"
@@ -51,7 +51,7 @@ const Header = () => {
             <option value="Apple iphone" />
             <option value="Ahmed Hassan" />
           </datalist>
-        </form>
+        </form>*/}
       </div>
       <div className="col-nav">
         <button
